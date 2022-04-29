@@ -1,0 +1,57 @@
+.Test {
+    height: 100vh;
+    width: 100vw;
+    /* background-color: rgb(92, 43, 226); */
+    /* background-color: rgb(226, 177, 43); */
+    background-color: rgb(255, 255, 255);
+  }
+
+  .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+  .selectTable {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .homeLogo {
+    max-height: 220px;
+    max-width: 600px;
+
+    min-height: 110px;
+    min-width: 400px;
+  }
+
+  .queryLogo {
+    height: 110px;
+    width: 200px;
+  }
+
+  .mymodal {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    /* border: 1px solid #ccc; */
+    background: #fff;
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+  }
+  
+  .myoverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
